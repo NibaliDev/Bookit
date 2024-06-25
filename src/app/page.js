@@ -15,6 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <body>
+      <div className="account-top-div">
+        <h1>Utforska</h1> 
+      </div> 
+
       <div className="home-div"> 
         
         <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 

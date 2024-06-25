@@ -2,6 +2,7 @@ import { Children } from "react"
 import Link from "next/link" 
 import Image from "next/image" 
 import Btn from "../components/Btn" 
+import BookitCertified from "../components/BookitCertified" 
 import '../globals.css' 
 
 
@@ -36,10 +37,13 @@ export default function Post ({}) {
             </div> 
             
 
-            <div className="bookit-certified-div"> 
-                <img src="./icons/checkmark.svg"/> 
-                <p>Bookit certified</p> 
+            <BookitCertified></BookitCertified>
+
+            <div className="logo-div">
+                <img src="./icons/star.svg"/> 
+                <h2><Link href="/accounts?new=Gröna Fingrar">Gröna Fingrar</Link></h2> 
             </div>
+
             
                 
 

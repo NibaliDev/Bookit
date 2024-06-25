@@ -52,11 +52,35 @@ body {
   margin: 0px; 
   padding: 0px; 
   
+} 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white; 
+  border-radius: 10px; 
+  color: white;
+  text-align: center;
+  padding: 20px 0; 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); 
+} 
+
+.footer-div img {
+  background: rgb(19, 62, 255); 
+  border-radius: 10px; 
+  margin-left: 45%; 
 }
 
 h1 {
   font-family: var(--font-mono); 
 } 
+
+.title {
+  font-size: 30px; 
+  margin: 10px; 
+}
 
 .nav-bar {
   color: white; 
@@ -138,6 +162,27 @@ h1 {
   border: 2px solid black; 
   border-radius: 10px; 
   margin: 0px; 
+} 
+
+.logo-div {
+  display: flex; 
+
+} 
+
+.logo-div img {
+  width: 10%; 
+} 
+
+.account-top-div {
+  background: linear-gradient(to right, rgb(19, 62, 255), var(--bookit-green)); 
+  padding: 5%; 
+  margin-bottom: 10px; 
+  border-radius: 0px 0px 10px 10px; 
+  color: white; 
+}
+
+.account-div {
+  margin: 10px; 
 }
 
 
