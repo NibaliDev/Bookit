@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Btn ({ children, to }) { 
     return <>
         <header> 
-            <div>
-                <Link class="btn" href="href">{children}</Link> 
+            <div className="btn">
+                <Link className="btn-text" href="href">{children}</Link> 
             </div>
             
         </header> 

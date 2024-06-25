@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.js'
 import Btn from './components/Btn.js' 
 import './globals.css'
 import Link from 'next/link.js' 
+import Post from './components/Post.js' 
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,9 +15,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <body>
-      <div class="title-bar"> 
-        <Btn to="/">Bookit</Btn> 
-      </div>
+      <div class="home-div"> 
+        
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+
+
+      </div> 
       
     </body> 
   )
