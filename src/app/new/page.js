@@ -42,7 +42,9 @@ export default function Post ({}) {
             <div className="logo-div">
                 <img src="./icons/star.svg"/> 
                 <h2><Link href="/accounts?new=Gröna Fingrar">Gröna Fingrar</Link></h2> 
-            </div>
+            </div> 
+
+            <div className="bottom-page-margin"></div> 
 
             
                 

@@ -70,7 +70,7 @@ body {
 .footer-div img {
   background: rgb(19, 62, 255); 
   border-radius: 10px; 
-  margin-left: 45%; 
+  margin-left: 2%; 
 }
 
 h1 {
@@ -183,6 +183,10 @@ h1 {
 
 .account-div {
   margin: 10px; 
+} 
+
+.bottom-page-margin {
+  padding: 50px; 
 }
 
 
