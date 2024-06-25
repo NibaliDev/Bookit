@@ -15,16 +15,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <body>
-      <div class="home-div"> 
+      <div className="home-div"> 
         
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
-        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" ></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
+        <Post ImgSrc="/Hammaro.jpg" title="Gräsklippning" price="200" to="/new"></Post> 
 
 
       </div> 

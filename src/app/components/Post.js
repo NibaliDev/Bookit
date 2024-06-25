@@ -5,10 +5,10 @@ import Btn from "../components/Btn"
 import '../globals.css' 
 
 
-export default function Post ({ ImgSrc, title, price}) { 
+export default function Post ({ ImgSrc, title, price, to}) { 
     
     return <>   
-        <Link className="post-div-link" href="/"> 
+        <Link className="post-div-link" href={to}> 
             <div className="post-div"> 
                 <div className="post">
                 <img 
